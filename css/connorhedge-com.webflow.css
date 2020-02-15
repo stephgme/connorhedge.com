@@ -237,11 +237,19 @@ p {
 
 .body-textwrap {
   position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
   height: 100%;
   margin-right: auto;
   margin-left: auto;
   padding: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #fff;
 }
 
@@ -370,7 +378,6 @@ p {
 
 .body-textcontainer {
   max-width: 480px;
-  margin-top: 60px;
   margin-right: auto;
   margin-left: auto;
 }
